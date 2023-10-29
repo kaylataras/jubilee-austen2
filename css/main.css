@@ -1,0 +1,244 @@
+/****** Global Styles ******/
+* {
+    margin: 0;
+}
+
+body {
+    color: #5E5D5E;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+p {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+/****** Header Styles ******/
+
+header {
+    background: #F9EFEF;
+}
+
+header nav {
+    color: #727172;
+    float: right;
+    font-size: 18px;
+    text-align: right;
+    width: 800px;
+    padding: 75px 25px 75px 0px;
+}
+
+nav ul {}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #727172;
+    padding-left: 50px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+h1,
+h2 {
+    font-family: 'Lora', serif;
+}
+
+.homepage-hero {
+    background: url('../img/full-background.png') #F9EFEF;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+header h1 {
+    float: left;
+    padding: 65px 0px 65px 25px;
+    width: 300px;
+}
+
+h1 {
+    color: #7B7E54;
+    font-size: 30px;
+}
+
+header h2 {
+    box-sizing: border-box;
+    clear: both;
+    color: #817F80;
+    font-size: 72px;
+    line-height: 80px;
+    padding: 20px 0px 20px 25px;
+    width: 1200px;
+}
+
+h2 {
+    color: #817F80;
+    font-size: 36px;
+}
+
+h3 {
+    color: #817F80;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+
+
+
+
+
+/****** About Styles ******/
+
+#about .content-wrapper {
+    padding: 80px 0px;
+}
+
+#about h2 {
+    padding: 0px 50px;
+}
+
+#about p {
+    float: left;
+    padding: 50px 50px 0px 50px;
+    width: 500px;
+}
+
+
+
+/****** Skill Styles ******/
+
+
+#skills {
+    background: #F5F5F5;
+    text-align: center;
+}
+
+#skills .content-wrapper {
+    padding: 115px 0px;
+}
+
+#skills .skills-list {
+    float: left;
+    padding: 0px 50px;
+    width: 300px;
+}
+
+#skills h2 {
+    padding-bottom: 40px;
+}
+
+#skills h3 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 30px 0 20px 0;
+}
+
+/****** Projects Styles ******/
+#projects {
+    background: #F5F5F5;
+    text-align: center;
+}
+
+#projects .content-wrapper {
+    padding: 115px 0px;
+}
+
+#projects .project-list {
+    float: left;
+    padding: 0px 50px;
+    width: 300px;
+}
+
+#projects img {
+    width: 200px;
+}
+
+#projects h2 {
+    padding-bottom: 40px;
+}
+
+#projects h3 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 30px 0 20px 0;
+}
+
+#projects p {
+    text-align: left;
+}
+
+
+
+/****** Contact Styles ******/
+
+footer {
+    background: #F9E9E9;
+}
+
+footer .content-wrapper {
+    padding: 110px 0;
+}
+
+footer .contact-img img {
+    border: 10px solid #ffffff;
+    box-sizing: border-box;
+    margin: 0 50px;
+    width: 500px;
+    float: left;
+}
+
+footer .contact-info {
+    box-sizing: border-box;
+    margin-left: 100px;
+    float: right;
+    width: 500px;
+}
+
+footer h2 {
+    padding: 30px 0;
+    font-weight: 600;
+}
+
+footer h3 {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.social-header {
+    margin-top: 20px;
+}
+
+#contact ul {
+    margin-top: 0;
+    padding-left: 0;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 40px;
+}
+
+.email-icon {
+    padding-right: 10px;
+
+}
+
+.email-link {
+    color: #817F80;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+}
